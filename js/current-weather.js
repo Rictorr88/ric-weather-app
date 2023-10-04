@@ -20,7 +20,7 @@ function setCurrentTemp($el, temp) {
     $el.textContent = formatTemp(temp)
 }
 
-function solarStatus(sunsetTime, sunriseTime) {
+function solarStatus(sunriseTime, sunsetTime) {
     const currentHours = new Date().getHours()
     const sunsetHours = sunsetTime.getHours()
     const sunriseHours = sunriseTime.getHours()
@@ -72,7 +72,7 @@ setBackground($app, conditionCode, solarStatus(sunriseTime, sunsetTime))
 
 export default async function currentWeather() {
     //GEO // API // -weather // config
-    console.log('esto pasa ANTES de getCurrentPosition')
+    // console.log('esto pasa ANTES de getCurrentPosition')
     const { lat, lon, isError } = await getLatLon()
     if (isError) return console.log('Ah ocurrido un error ubicandote')
     // console.log(lat, lon)
