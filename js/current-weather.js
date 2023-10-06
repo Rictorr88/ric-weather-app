@@ -20,6 +20,11 @@ function setCurrentTemp($el, temp) {
     $el.textContent = formatTemp(temp)
 }
 
+function setCurrentFeel($el, feel) {
+  $el.textContent = formatTemp(feel)
+}
+
+
 function solarStatus(sunriseTime, sunsetTime) {
     const currentHours = new Date().getHours()
     const sunsetHours = sunsetTime.getHours()
@@ -60,7 +65,10 @@ setCurrentCity($currentWeatherCity, city)
 const $currentWeatherTemp = document.querySelector('#current-weather-temp')
 const temp = weather.main.temp
 setCurrentTemp($currentWeatherTemp, temp)
-
+//feel
+const $currentWeatherFeel = document.querySelector("#current-weather-feel")
+const feel = weather.main.feels_like
+setCurrentFeel($currentWeatherFeel, feel)
 
 //background    
 const sunriseTime = new Date(weather.sys.sunrise * 1000)

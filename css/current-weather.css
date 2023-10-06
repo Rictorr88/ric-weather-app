@@ -31,14 +31,18 @@ p.currentWeather-date {
 
 .currentWeather-feel {
   font: var(--caption-caption);
-  /* padding-inline-start: 1rem;  */
 }
 
 .fa-temperature-arrow-up {
-  /* border:  1px solid red; */
-  font-size: .85rem;
+  align-self: center;
+  font-size: .75rem;
 }
 
 p.currentWeather-feel {
-  margin-block-end: .25rem;
+  /* margin-block-end: .25rem; */
+}
+
+div.realFeel {
+  gap: .25rem;
+  display: flex;
 }
