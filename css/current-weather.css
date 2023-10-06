@@ -28,3 +28,17 @@ p.currentWeather-date {
   padding-inline-start: 1rem;
   background: url('../images/pin-icon.svg') no-repeat left center;
 }
+
+.currentWeather-feel {
+  font: var(--caption-caption);
+  /* padding-inline-start: 1rem;  */
+}
+
+.fa-temperature-arrow-up {
+  /* border:  1px solid red; */
+  font-size: .85rem;
+}
+
+p.currentWeather-feel {
+  margin-block-end: .25rem;
+}
