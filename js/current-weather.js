@@ -73,7 +73,8 @@ function configCurrentWeather(weather) {
     //background    
     const sunriseTime = new Date(weather.sys.sunrise * 1000)
     const sunsetTime = new Date(weather.sys.sunset * 1000)
-    const conditionCode = String(weather.weather[0].id).charAt(0)
+    // const conditionCode = String(weather.weather[0].id).charAt(0)
+    const conditionCode = String(weather.weather[0].id)
     setBackground($app, conditionCode, solarStatus(sunriseTime, sunsetTime))
 
 }

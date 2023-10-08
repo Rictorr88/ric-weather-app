@@ -1,10 +1,11 @@
 :root {
   --white: #eff0f3;
   --black: #393939;
-  --primary: #ff8906;
+  --primary: #1296ad;
   --grey: #535353;
   --bg: #1f1f1f;
-  --gradient: linear-gradient(0deg, #536976 0%, #292e49 100%);
+  /* --gradient: linear-gradient(0deg, #536976 0%, #292e49 100%); */
+  --gradient: linear-gradient(0deg, #1296ad 0%, #292e49 100%);
   --subtitle2: 600 0.75rem/normal Nunito;
   --headline-headline1: extrabold 1.5rem/normal Nunito;
   --headline-headline2: 700 1.125rem/normal Nunito;
