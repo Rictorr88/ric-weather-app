@@ -1,10 +1,12 @@
 .weeklyWeather {
-  background: var(--bg);
-  /* block-size: 500px; */
+  border-radius: 24px;
+  border: 1px solid var(--gradiente-01, rgba(255, 255, 255, 0.16));
+  background: var(--BG, rgba(16, 16, 16, 0.41));
+  backdrop-filter: blur(4px);
+  /* background: var(--bg);
   border-radius: 1rem 1rem 0 0;
-  /* transform: translateY(calc(100% - 1.5rem)); */
   user-select: none;
-  touch-action: none;
+  touch-action: none; */
 }
 
 .weeklyWeather.is-active {
@@ -33,4 +35,3 @@
   inset-inline-start: 0;
   inset-inline-end: 0;
 }
-

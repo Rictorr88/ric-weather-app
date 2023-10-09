@@ -16,7 +16,8 @@
 }
 
 .tabList {
-  gap: 2rem;
+  gap: 2.8rem;
+  justify-content: center;
   overflow: auto;
   /* border: 1px solid red; */
 

@@ -1,11 +1,23 @@
 .currentWeather {
+  border-radius: 24px;
+  border: 1px solid var(--gradiente-01, rgba(255, 255, 255, 0.16));
+  background: var(--BG, rgba(16, 16, 16, 0.41));
+  backdrop-filter: blur(2px);
+  padding: 1.5rem;
+  display: flex;
+  max-inline-size: 14rem;
+  gap: .5rem;
+  color: var(--white);
+  /* border: 1px solid red;
   background: var(--gradient);
   padding: 1.5rem;
+  
   color: var(--white);
   border-radius: .5rem;
   display: flex;
   gap: .5rem;
-  max-inline-size: 14rem;
+  max-inline-size: 14rem; */
+
 }
 
 .currentWeather p {
@@ -19,14 +31,17 @@
 }
 
 p.currentWeather-date {
-  font: var(--caption-caption);
+  font: var(--body2-bold);
   margin-block-end: 1rem;
 }
 
 .currentWeather-city {
-  font: var(--caption-caption);
-  padding-inline-start: 1rem;
-  background: url('../images/pin-icon.svg') no-repeat left center;
+  font: var(--body2-bold);
+  display: flex;
+  gap: .5rem;
+  align-items: center
+  /* padding-inline-start: 1rem; */
+  /* background: url('../images/pin-icon.svg') no-repeat left center; */
 }
 
 .currentWeather-feel {
@@ -35,10 +50,12 @@ p.currentWeather-date {
 
 .fa-temperature-arrow-up {
   align-self: center;
-  font-size: .75rem;
+  font-size: .65rem;
 }
 
 p.currentWeather-feel {
+  font: var(--body2-bold);
+
   /* margin-block-end: .25rem; */
 }
 
