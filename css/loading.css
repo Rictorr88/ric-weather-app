@@ -1,5 +1,5 @@
 .loading {
-  background-image: url('../images/clouds-intro.gif'), var(--gradient);
+  background-image: url('../images/loading-weather.gif'), var(--gradient);
   background-repeat: no-repeat;
   background-position: center;
   block-size: 100vh;
