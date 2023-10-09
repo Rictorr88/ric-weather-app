@@ -3,10 +3,10 @@
   border: 1px solid var(--gradiente-01, rgba(255, 255, 255, 0.16));
   background: var(--BG, rgba(16, 16, 16, 0.41));
   backdrop-filter: blur(4px);
-  /* background: var(--bg);
+  /* background: var(--bg); */
   border-radius: 1rem 1rem 0 0;
   user-select: none;
-  touch-action: none; */
+  touch-action: none;
 }
 
 .weeklyWeather.is-active {
