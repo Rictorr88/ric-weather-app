@@ -54,7 +54,7 @@ export const weatherConditionCodes = {
   781: "Tornado",
   800: "Clear",
   801: "Cloud",
-  802: "Cloud",
+  802: "ScatteredClouds",
   803: "BrokenCloud",
   804: "BrokenCloud",
 };
