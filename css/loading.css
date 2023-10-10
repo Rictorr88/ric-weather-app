@@ -1,5 +1,6 @@
 .loading {
-  background-image: url('../images/loading-weather.gif'), var(--gradient);
+  background: #062734;
+  background-image: url('../images/loading-weather2.gif');
   background-repeat: no-repeat;
   background-position: center;
   block-size: 100vh;
@@ -9,6 +10,7 @@
   transition: .3s opacity;
   position: absolute;
   inset: 0;
+  z-index: 3;
 }
 
 .loading[hidden] {
@@ -24,7 +26,7 @@
   block-size: 30px;
 }
 
-.loading:after {
+/* .loading:after {
   content: '';
   display: block;
   inline-size: 200px;
@@ -35,7 +37,7 @@
   position: relative;
   left: 100px;
   border-radius: 3px 0 0 3px;
-}
+} */
 
 @keyframes time {
   from {

@@ -13,8 +13,8 @@
 
 .dayWeather-item {
   border: 1px solid rgba(255, 255, 255, 0.16);
-  background: rgba(16, 16, 16, 0.40);
-  /* backdrop-filter: blur(24px); */
+  background: RGBA(6, 39, 52,);
+  backdrop-filter: blur(24px);
   inline-size: 4rem;
   flex-shrink: 0;
   display: flex;

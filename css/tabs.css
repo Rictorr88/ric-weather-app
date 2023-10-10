@@ -11,13 +11,14 @@
 }
 
 .tab[aria-selected="true"] {
-  color: var(--primary);
+  color: #00fa9e;
   border-block-end-color: var(--primary);
 }
 
 .tabList {
-  gap: 2rem;
-  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
   overflow: auto;
   /* border: 1px solid red; */
 }

@@ -1,7 +1,7 @@
 .weeklyWeather {
   border-radius: 24px;
   border: 1px solid var(--gradiente-01, rgba(255, 255, 255, 0.16));
-  background: var(--BG, rgba(16, 16, 16, 0.41));
+  background: RGBA(6, 39, 52, 0.47);
   backdrop-filter: blur(4px);
   /* background: var(--bg); */
   border-radius: 1rem 1rem 0 0;
