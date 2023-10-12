@@ -1,7 +1,8 @@
 :root {
   --white: #eff0f3;
   --black: #393939;
-  --primary: #989c9c8f;
+  /* --primary: #989c9c8f; */
+  --primary: #00fa9e;
   --grey: #535353;
   --bg: #1f1f1f;
   /* --gradient: linear-gradient(0deg, #536976 0%, #292e49 100%); */
