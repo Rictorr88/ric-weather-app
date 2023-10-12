@@ -43,9 +43,10 @@
   font: var(--body1-bold);
 }
 
-.dayWeather-item.is-selected {
+.dayWeather-item.is-selected:nth-child(1) {
   box-shadow: inset 0 0 0 2px var(--primary);
 }
+
 
 .dayWeather-summary {
   display: grid;
