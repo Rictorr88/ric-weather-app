@@ -69,6 +69,8 @@ function configCurrentWeather(weather) {
     const $currentWeatherFeel = document.querySelector("#current-weather-feel")
     const feel = weather.main.feels_like
     setCurrentFeel($currentWeatherFeel, feel)
+    // description
+   
 
     //background    
     const sunriseTime = new Date(weather.sys.sunrise * 1000)
